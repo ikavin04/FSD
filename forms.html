@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.html"> 
+    <h1>Home page</h1>
+    <a href="index.html">Go to Index</a>
+    <section style="margin-top: 10px;">
+        <label for="Username">First name</label>
+        <input type="text" id="Username">
+    </section>
+    <section style="margin-top: 10px;">
+        <label for="lastname">Last name</label>
+        <input type="text" id="lastname">
+    </section>
+    <section style="margin-top: 10px;">
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+    </section>
+    <section style="margin-top: 10px;">
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+    </section>
+    <section style="margin-top: 10px;">
+        <label for="number" >year of study</label>
+        <input type="number" id="number" min="1" max="4">
+    </section>
+    <section style="margin-top: 10px;">
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender">Male
+        <input type="radio" id="gender" name="gender">Female
+    </section>
+    <section style="margin-top: 10px;">
+        <label for="department">Department</label>
+        <select id="department">
+            <option value="cse">CSE</option>
+            <option value="aids">AIDS</option>
+            <option value="ece">ECE</option>
+            <option value="IT">IT</option>
+            <option value="aiml">AIML</option>
+            <option value="cys">CYS</option>
+        </select>
+    </section>
+    <section style="margin-top: 10px;">
+        <label for="date">Date of birth</label>
+        <input type ="date" id="date">
+    </section>
+
+    <section style="margin-top: 10px;">
+        <label for="color">Color</label>
+        <input type="color" id="color">
+    </section>
+    <div style="margin-top: 20px;">
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+
+</body>
+</html>
